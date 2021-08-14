@@ -1,0 +1,25 @@
+{
+  "name": "dni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pomierski/dni/"
+  },
+  "homepage": "https://pomierski.github.io/dni",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.23.0",
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
