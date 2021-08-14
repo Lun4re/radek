@@ -42,3 +42,9 @@ body {
   font-size: 94px;
   font-weight: bold;
 }
+
+@media (max-width: 1024px) {
+  .timer {
+    font-size: 40px;
+  }
+}
