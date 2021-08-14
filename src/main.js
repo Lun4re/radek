@@ -8,9 +8,9 @@ const calcTimeFromStarterDate = () => {
     end: differenceInSeconds(starterDate, new Date()) * 1000,
   });
 
-  return `${duration.hours}:${duration.minutes}:${
-    duration.seconds < 10 ? "0" + duration.seconds : duration.seconds
-  }`;
+  return `${duration.hours < 10 ? "0" + duration.hours : duration.hours}:${
+    duration.minutes
+  }:${duration.seconds < 10 ? "0" + duration.seconds : duration.seconds}`;
 };
 
 const timerElementNode = document.querySelector(".timer");
